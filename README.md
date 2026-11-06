@@ -6,11 +6,11 @@ En este repositorio se encuentra todo lo relacionado a la creación de un modelo
 
 ---
 
-- Models
+- Models:
   - B_capas_seed42.keras: Modelo mejorado del de Transfer learning, es un modelo más largo y con 100 capas descongeladas.
   - cnn_base_v1.keras: Modelo inicial utilizando una CNN propia.
   - modelo2_effnetb0_seed42.keras: Segundo modelo pero haciendo uso de Transfer learning para tener un mejor modelo, siguiendo con EfficientNetB0.
-- Scripts
+- Scripts:
   - Modelo_CNN.ipynb: Archivo en el que se entrena el primer modelo usando CNN.
   - Modelo_TransferLearning.ipynb: Archivo en el que se entrena el segundo modelo usando EfficientNet0.
   - ModeloTL_Mejora.ipynb: Archivo en el que se hacen diversos experimentos para llegar a una mejora del modelo de Tranfer Learning.
